@@ -1,0 +1,42 @@
+site:gopr0.com filetype:env "DB_PASSWORD"
+ite:gopr0.com filetype:log inurl:"/logs/"
+site:gopr0.com intitle:"index of" inurl:backup filetype:sql
+site:gopr0.com intitle:"webcamXP 5"
+site:gopr0.com filetype:conf "apache" inurl:config
+site:gopr0.com filetype:txt intext:"password" intext:"email"
+site:gopr0.com inurl:admin intitle:"login"
+site:gopr0.com filetype:pem intext:"PRIVATE KEY"
+site:gopr0.com filetype:php inurl:wp-config
+site:gopr0.com filetype:bak OR filetype:old OR filetype:backup
+site:gopr0.com filetype:txt inurl:passwords
+site:gopr0.com inurl:"server-status" "Apache Server Status"
+site:gopr0.com intext:"SQL syntax" "unexpected T_STRING"
+site:gopr0.com inurl:/git/ OR inurl:/svn/
+site:kucoin.com filetype:env "DB_PASSWORD"
+ite:kucoin.com filetype:log inurl:"/logs/"
+site:kucoin.com intitle:"index of" inurl:backup filetype:sql
+site:kucoin.com intitle:"webcamXP 5"
+site:kucoin.com filetype:conf "apache" inurl:config
+site:kucoin.com filetype:txt intext:"password" intext:"email"
+site:kucoin.com inurl:admin intitle:"login"
+site:kucoin.com filetype:pem intext:"PRIVATE KEY"
+site:kucoin.com filetype:php inurl:wp-config
+site:kucoin.com filetype:bak OR filetype:old OR filetype:backup
+site:kucoin.com filetype:txt inurl:passwords
+site:kucoin.com inurl:"server-status" "Apache Server Status"
+site:kucoin.com intext:"SQL syntax" "unexpected T_STRING"
+site:kucoin.com inurl:/git/ OR inurl:/svn/
+site:arlo.com filetype:env "DB_PASSWORD"
+ite:arlo.com filetype:log inurl:"/logs/"
+site:arlo.com intitle:"index of" inurl:backup filetype:sql
+site:arlo.com intitle:"webcamXP 5"
+site:arlo.com filetype:conf "apache" inurl:config
+site:arlo.com filetype:txt intext:"password" intext:"email"
+site:arlo.com inurl:admin intitle:"login"
+site:arlo.com filetype:pem intext:"PRIVATE KEY"
+site:arlo.com filetype:php inurl:wp-config
+site:arlo.com filetype:bak OR filetype:old OR filetype:backup
+site:arlo.com filetype:txt inurl:passwords
+site:arlo.com inurl:"server-status" "Apache Server Status"
+site:arlo.com intext:"SQL syntax" "unexpected T_STRING"
+site:arlo.com inurl:/git/ OR inurl:/svn/
