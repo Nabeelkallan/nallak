@@ -1,42 +1,147 @@
-site:gopr0.com filetype:env "DB_PASSWORD"
-ite:gopr0.com filetype:log inurl:"/logs/"
-site:gopr0.com intitle:"index of" inurl:backup filetype:sql
-site:gopr0.com intitle:"webcamXP 5"
-site:gopr0.com filetype:conf "apache" inurl:config
-site:gopr0.com filetype:txt intext:"password" intext:"email"
-site:gopr0.com inurl:admin intitle:"login"
-site:gopr0.com filetype:pem intext:"PRIVATE KEY"
-site:gopr0.com filetype:php inurl:wp-config
-site:gopr0.com filetype:bak OR filetype:old OR filetype:backup
-site:gopr0.com filetype:txt inurl:passwords
-site:gopr0.com inurl:"server-status" "Apache Server Status"
-site:gopr0.com intext:"SQL syntax" "unexpected T_STRING"
-site:gopr0.com inurl:/git/ OR inurl:/svn/
-site:kucoin.com filetype:env "DB_PASSWORD"
-ite:kucoin.com filetype:log inurl:"/logs/"
-site:kucoin.com intitle:"index of" inurl:backup filetype:sql
-site:kucoin.com intitle:"webcamXP 5"
-site:kucoin.com filetype:conf "apache" inurl:config
-site:kucoin.com filetype:txt intext:"password" intext:"email"
-site:kucoin.com inurl:admin intitle:"login"
-site:kucoin.com filetype:pem intext:"PRIVATE KEY"
-site:kucoin.com filetype:php inurl:wp-config
-site:kucoin.com filetype:bak OR filetype:old OR filetype:backup
-site:kucoin.com filetype:txt inurl:passwords
-site:kucoin.com inurl:"server-status" "Apache Server Status"
-site:kucoin.com intext:"SQL syntax" "unexpected T_STRING"
-site:kucoin.com inurl:/git/ OR inurl:/svn/
-site:arlo.com filetype:env "DB_PASSWORD"
-ite:arlo.com filetype:log inurl:"/logs/"
-site:arlo.com intitle:"index of" inurl:backup filetype:sql
-site:arlo.com intitle:"webcamXP 5"
-site:arlo.com filetype:conf "apache" inurl:config
-site:arlo.com filetype:txt intext:"password" intext:"email"
-site:arlo.com inurl:admin intitle:"login"
-site:arlo.com filetype:pem intext:"PRIVATE KEY"
-site:arlo.com filetype:php inurl:wp-config
-site:arlo.com filetype:bak OR filetype:old OR filetype:backup
-site:arlo.com filetype:txt inurl:passwords
-site:arlo.com inurl:"server-status" "Apache Server Status"
-site:arlo.com intext:"SQL syntax" "unexpected T_STRING"
-site:arlo.com inurl:/git/ OR inurl:/svn/
+filetype:sql inurl:dump site:gopr0.com
+inurl:"/php?id=" site:gopr0.com
+filetype:log intext:password site:gopr0.com
+intitle:"index of" /backup site:gopr0.com
+inurl:"/admin/login.php" site:gopr0.com
+filetype:xml intext:credential site:gopr0.com
+intitle:"phpinfo()" site:gopr0.com
+filetype:pdf intext:"confidential" site:gopr0.com
+inurl:"/uploads/" filetype:jpg site:gopr0.com
+inurl:".env" site:gopr0.com
+intitle:"Access Denied" site:gopr0.com
+filetype:csv intext:"email" site:gopr0.com
+inurl:"/wp-content/plugins/" site:gopr0.com
+inurl:"/cgi-bin/" site:gopr0.com
+filetype:config site:gopr0.com
+intitle:"index of" "parent directory" site:gopr0.com
+inurl:"/uploads/" filetype:pdf site:gopr0.com
+filetype:xls "sensitive data" site:gopr0.com
+inurl:login.php?email= site:gopr0.com
+filetype:docx "confidential" site:gopr0.com
+intitle:"webcamXP 5.0" site:gopr0.com
+inurl:"/secret/" site:gopr0.com
+inurl:"/api/user" filetype:json site:gopr0.com
+inurl:"/dev/" site:gopr0.com
+filetype:bak site:gopr0.com
+intitle:"Index of /private" site:gopr0.com
+inurl:"/images/" filetype:png site:gopr0.com
+inurl:"/dashboard/" "login" site:gopr0.com
+inurl:"/data/" site:gopr0.com
+filetype:php intext:"mysqli_connect" site:gopr0.com
+inurl:"?page_id=" site:gopr0.com
+intitle:"Error establishing a database connection" site:gopr0.com
+filetype:db site:gopr0.com
+inurl:"/xmlrpc.php" site:gopr0.com
+inurl:".git" site:gopr0.com
+inurl:"/admin/" "login" site:gopr0.com
+inurl:"/reports/" site:gopr0.com
+filetype:json "user" "password" site:gopr0.com
+inurl:"/vulnerabilities/" site:gopr0.com
+filetype:md site:gopr0.com
+filetype:ini site:gopr0.com
+inurl:"/inventory/" site:gopr0.com
+filetype:html "sensitive data" site:gopr0.com
+intitle:"Your account" site:gopr0.com
+inurl:"/members/" "login" site:gopr0.com
+inurl:"/controlpanel/" site:gopr0.com
+inurl:"/tmp/" site:gopr0.com
+inurl:"/config.php" site:gopr0.com
+ site:gopr0.com
+filetype:sql inurl:dump site:kucoin.com
+inurl:"/php?id=" site:kucoin.com
+filetype:log intext:password site:kucoin.com
+intitle:"index of" /backup site:kucoin.com
+inurl:"/admin/login.php" site:kucoin.com
+filetype:xml intext:credential site:kucoin.com
+intitle:"phpinfo()" site:kucoin.com
+filetype:pdf intext:"confidential" site:kucoin.com
+inurl:"/uploads/" filetype:jpg site:kucoin.com
+inurl:".env" site:kucoin.com
+intitle:"Access Denied" site:kucoin.com
+filetype:csv intext:"email" site:kucoin.com
+inurl:"/wp-content/plugins/" site:kucoin.com
+inurl:"/cgi-bin/" site:kucoin.com
+filetype:config site:kucoin.com
+intitle:"index of" "parent directory" site:kucoin.com
+inurl:"/uploads/" filetype:pdf site:kucoin.com
+filetype:xls "sensitive data" site:kucoin.com
+inurl:login.php?email= site:kucoin.com
+filetype:docx "confidential" site:kucoin.com
+intitle:"webcamXP 5.0" site:kucoin.com
+inurl:"/secret/" site:kucoin.com
+inurl:"/api/user" filetype:json site:kucoin.com
+inurl:"/dev/" site:kucoin.com
+filetype:bak site:kucoin.com
+intitle:"Index of /private" site:kucoin.com
+inurl:"/images/" filetype:png site:kucoin.com
+inurl:"/dashboard/" "login" site:kucoin.com
+inurl:"/data/" site:kucoin.com
+filetype:php intext:"mysqli_connect" site:kucoin.com
+inurl:"?page_id=" site:kucoin.com
+intitle:"Error establishing a database connection" site:kucoin.com
+filetype:db site:kucoin.com
+inurl:"/xmlrpc.php" site:kucoin.com
+inurl:".git" site:kucoin.com
+inurl:"/admin/" "login" site:kucoin.com
+inurl:"/reports/" site:kucoin.com
+filetype:json "user" "password" site:kucoin.com
+inurl:"/vulnerabilities/" site:kucoin.com
+filetype:md site:kucoin.com
+filetype:ini site:kucoin.com
+inurl:"/inventory/" site:kucoin.com
+filetype:html "sensitive data" site:kucoin.com
+intitle:"Your account" site:kucoin.com
+inurl:"/members/" "login" site:kucoin.com
+inurl:"/controlpanel/" site:kucoin.com
+inurl:"/tmp/" site:kucoin.com
+inurl:"/config.php" site:kucoin.com
+ site:kucoin.com
+filetype:sql inurl:dump site:arlo.com
+inurl:"/php?id=" site:arlo.com
+filetype:log intext:password site:arlo.com
+intitle:"index of" /backup site:arlo.com
+inurl:"/admin/login.php" site:arlo.com
+filetype:xml intext:credential site:arlo.com
+intitle:"phpinfo()" site:arlo.com
+filetype:pdf intext:"confidential" site:arlo.com
+inurl:"/uploads/" filetype:jpg site:arlo.com
+inurl:".env" site:arlo.com
+intitle:"Access Denied" site:arlo.com
+filetype:csv intext:"email" site:arlo.com
+inurl:"/wp-content/plugins/" site:arlo.com
+inurl:"/cgi-bin/" site:arlo.com
+filetype:config site:arlo.com
+intitle:"index of" "parent directory" site:arlo.com
+inurl:"/uploads/" filetype:pdf site:arlo.com
+filetype:xls "sensitive data" site:arlo.com
+inurl:login.php?email= site:arlo.com
+filetype:docx "confidential" site:arlo.com
+intitle:"webcamXP 5.0" site:arlo.com
+inurl:"/secret/" site:arlo.com
+inurl:"/api/user" filetype:json site:arlo.com
+inurl:"/dev/" site:arlo.com
+filetype:bak site:arlo.com
+intitle:"Index of /private" site:arlo.com
+inurl:"/images/" filetype:png site:arlo.com
+inurl:"/dashboard/" "login" site:arlo.com
+inurl:"/data/" site:arlo.com
+filetype:php intext:"mysqli_connect" site:arlo.com
+inurl:"?page_id=" site:arlo.com
+intitle:"Error establishing a database connection" site:arlo.com
+filetype:db site:arlo.com
+inurl:"/xmlrpc.php" site:arlo.com
+inurl:".git" site:arlo.com
+inurl:"/admin/" "login" site:arlo.com
+inurl:"/reports/" site:arlo.com
+filetype:json "user" "password" site:arlo.com
+inurl:"/vulnerabilities/" site:arlo.com
+filetype:md site:arlo.com
+filetype:ini site:arlo.com
+inurl:"/inventory/" site:arlo.com
+filetype:html "sensitive data" site:arlo.com
+intitle:"Your account" site:arlo.com
+inurl:"/members/" "login" site:arlo.com
+inurl:"/controlpanel/" site:arlo.com
+inurl:"/tmp/" site:arlo.com
+inurl:"/config.php" site:arlo.com
+ site:arlo.com

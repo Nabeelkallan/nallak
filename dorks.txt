@@ -1,14 +1,49 @@
-site:abcd.com filetype:env "DB_PASSWORD"
-ite:abcd.com filetype:log inurl:"/logs/"
-site:abcd.com intitle:"index of" inurl:backup filetype:sql
-site:abcd.com intitle:"webcamXP 5"
-site:abcd.com filetype:conf "apache" inurl:config
-site:abcd.com filetype:txt intext:"password" intext:"email"
-site:abcd.com inurl:admin intitle:"login"
-site:abcd.com filetype:pem intext:"PRIVATE KEY"
-site:abcd.com filetype:php inurl:wp-config
-site:abcd.com filetype:bak OR filetype:old OR filetype:backup
-site:abcd.com filetype:txt inurl:passwords
-site:abcd.com inurl:"server-status" "Apache Server Status"
-site:abcd.com intext:"SQL syntax" "unexpected T_STRING"
-site:abcd.com inurl:/git/ OR inurl:/svn/
+filetype:sql inurl:dump
+inurl:"/php?id="
+filetype:log intext:password
+intitle:"index of" /backup
+inurl:"/admin/login.php"
+filetype:xml intext:credential
+intitle:"phpinfo()"
+filetype:pdf intext:"confidential"
+inurl:"/uploads/" filetype:jpg
+inurl:".env"
+intitle:"Access Denied"
+filetype:csv intext:"email"
+inurl:"/wp-content/plugins/"
+inurl:"/cgi-bin/"
+filetype:config
+intitle:"index of" "parent directory"
+inurl:"/uploads/" filetype:pdf
+filetype:xls "sensitive data"
+inurl:login.php?email=
+filetype:docx "confidential"
+intitle:"webcamXP 5.0"
+inurl:"/secret/"
+inurl:"/api/user" filetype:json
+inurl:"/dev/"
+filetype:bak
+intitle:"Index of /private"
+inurl:"/images/" filetype:png
+inurl:"/dashboard/" "login"
+inurl:"/data/"
+filetype:php intext:"mysqli_connect"
+inurl:"?page_id="
+intitle:"Error establishing a database connection"
+filetype:db
+inurl:"/xmlrpc.php"
+inurl:".git"
+inurl:"/admin/" "login"
+inurl:"/reports/"
+filetype:json "user" "password"
+inurl:"/vulnerabilities/"
+filetype:md
+filetype:ini
+inurl:"/inventory/"
+filetype:html "sensitive data"
+intitle:"Your account"
+inurl:"/members/" "login"
+inurl:"/controlpanel/"
+inurl:"/tmp/"
+inurl:"/config.php"
+
